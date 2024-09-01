@@ -17,7 +17,7 @@ export default function Cta(){
                             <img src='/images/home.png' alt=""/>
                             <div className="absolute bottom-2/4 translate-y-2/4 start-0 end-0 text-center">
                                 <Link href="#!" scroll={false} onClick={() => setOpen(true)}
-                                    className="lightbox size-20 rounded-full shadow-lg dark:shadow-gray-700 inline-flex items-center justify-center bg-white dark:bg-slate-900 text-teal-500 dark:text-white">
+                                    className="lightbox size-20 rounded-full shadow-lg dark:shadow-gray-700 inline-flex items-center justify-center bg-white dark:bg-slate-900 text-red-500 dark:text-white">
                                     <i className="mdi mdi-play inline-flex items-center justify-center text-2xl"></i>
                                 </Link>
                             </div>
@@ -55,7 +55,7 @@ export default function Cta(){
             </div>
         </div>
         
-        <div className="absolute bottom-0 start-0 end-0 sm:h-2/3 h-4/5 bg-gradient-to-b from-teal-400 to-teal-500"></div>
+        <div className="absolute bottom-0 start-0 end-0 sm:h-2/3 h-4/5 bg-gradient-to-b from-red-400 to-red-500"></div>
     </section>
     )
 }

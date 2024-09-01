@@ -30,11 +30,11 @@ export default function Blogs(){
                                     <span className="flex items-center text-slate-400 text-sm ms-3"><FiClock className="size-4 text-slate-900 dark:text-white me-1.5"/>5 min read</span>
                                 </div>
 
-                                <Link href="" className="title text-lg font-semibold hover:text-teal-500 duration-500 ease-in-out">{item.title}</Link>
+                                <Link href="" className="title text-lg font-semibold hover:text-red-500 duration-500 ease-in-out">{item.title}</Link>
                                 <p className="text-slate-400 mt-2">{item.desc}</p>
 
                                 <div className="mt-3">
-                                    <Link href="" className="text-teal-500">Read More <i className="mdi mdi-chevron-right align-middle"></i></Link>
+                                    <Link href="" className="text-red-500">Read More <i className="mdi mdi-chevron-right align-middle"></i></Link>
                                 </div>
                             </div>
                         </div>

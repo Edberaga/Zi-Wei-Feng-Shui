@@ -20,7 +20,7 @@ export default function HeroCarousel(){
                                     <p className="text-white/70 text-lg max-w-xl">This is just a simple text made for this unique and awesome template, you can replace it with any text.</p>
                                     
                                     <div className="mt-6">
-                                        <Link href="" className="h-10 px-6 tracking-wide inline-flex items-center justify-center font-medium rounded-md bg-teal-500 text-white">See More</Link>
+                                        <Link href="" className="h-10 px-6 tracking-wide inline-flex items-center justify-center font-medium rounded-md bg-red-500 text-white">See More</Link>
                                     </div>
                                 </div>
                             </div>
@@ -38,7 +38,7 @@ export default function HeroCarousel(){
                                     <p className="text-white/70 text-lg max-w-xl">This is just a simple text made for this unique and awesome template, you can replace it with any text.</p>
                                     
                                     <div className="mt-6">
-                                        <Link href="" className="h-10 px-6 tracking-wide inline-flex items-center justify-center font-medium rounded-md bg-teal-500 text-white">See More</Link>
+                                        <Link href="" className="h-10 px-6 tracking-wide inline-flex items-center justify-center font-medium rounded-md bg-red-500 text-white">See More</Link>
                                     </div>
                                 </div>
                             </div>

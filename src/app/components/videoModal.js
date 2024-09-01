@@ -11,7 +11,7 @@ export default function VideoModal({className}){
     return(
         <>
         <div className={className}>
-            <Link href="#!" scroll={false} onClick={() => setOpen(true)} className="lightbox size-20 rounded-full shadow-lg dark:shadow-gray-700 inline-flex items-center justify-center bg-white dark:bg-slate-900 text-teal-500 dark:text-white">
+            <Link href="#!" scroll={false} onClick={() => setOpen(true)} className="lightbox size-20 rounded-full shadow-lg dark:shadow-gray-700 inline-flex items-center justify-center bg-white dark:bg-slate-900 text-red-500 dark:text-white">
                 <i className="mdi mdi-play inline-flex items-center justify-center text-2xl"></i>
             </Link>
         </div>

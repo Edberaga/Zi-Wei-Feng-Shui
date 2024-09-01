@@ -31,7 +31,7 @@ export default function Navbar(){
             <div className="nav-icons flex items-center lg_992:order-2 ms-auto md:ms-8">
                 <ul className="list-none menu-social mb-0">
                     <li className="inline">
-                        <Link href="" className="h-8 px-4 text-[12px] tracking-wider inline-flex items-center justify-center font-medium rounded-md bg-teal-500 text-white uppercase">Login</Link>
+                        <Link href="" className="h-8 px-4 text-[12px] tracking-wider inline-flex items-center justify-center font-medium rounded-md bg-red-500 text-white uppercase">Login</Link>
                     </li>
                 </ul>
                 <button data-collapse="menu-collapse" type="button" className="collapse-btn inline-flex items-center ms-2 text-dark dark:text-white lg_992:hidden" onClick={() =>setManu(!manu)}>
@@ -53,9 +53,6 @@ export default function Navbar(){
                     </li>
                     <li className="nav-item ms-0">
                         <Link1 className="nav-link" to="review" smooth={true} duration={1000} activeClass='active' spy={true}>Testimonial</Link1>
-                    </li>
-                    <li className="nav-item ms-0">
-                        <Link1 className="nav-link" to="pricing" smooth={true} duration={1000} activeClass='active' spy={true}>Pricing</Link1>
                     </li>
                     <li className="nav-item ms-0">
                         <Link1 className="nav-link" to="blog" smooth={true} duration={1000} activeClass='active' spy={true}>Blogs</Link1>
