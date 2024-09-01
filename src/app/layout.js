@@ -10,7 +10,7 @@ const libre_franklin = Libre_Franklin({
    });
 
 export const metadata = {
-  title: "Upcover - Next js Business Landing Page Template",
+  title: "Zi Wei Feng Shui",
   description: "Next js Business Landing Page Template",
 };
 
