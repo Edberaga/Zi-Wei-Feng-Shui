@@ -20,7 +20,11 @@ export default function Home() {
     <div className="container relative mt-8">
       <div className="grid md:grid-cols-2 grid-cols-1 gap-6 items-center">
         <div>
+<<<<<<< HEAD
           <h1 className="font-semibold lg:leading-normal leading-normal tracking-wide text-4xl lg:text-5xl mb-5">Your Life with Zi Wei Feng Shui</h1>
+=======
+          <h1 className="font-semibold lg:leading-normal leading-normal tracking-wide text-4xl lg:text-5xl mb-5">Transform Your Life with Saysheji</h1>
+>>>>>>> 9fa47566525da8c30c095c9d9a480eb3884601f2
           <p className="text-slate-400 text-lg max-w-xl">
             Unlock the ancient wisdom of the stars to bring balance, prosperity, and harmony into your life. Explore personalized solutions tailored to your unique destiny.
           </p>
