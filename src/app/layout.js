@@ -11,7 +11,7 @@ const libre_franklin = Libre_Franklin({
 
 export const metadata = {
   title: "Zi Wei Feng Shui",
-  description: "Next js Business Landing Page Template",
+  description: "Unlock the ancient wisdom of the stars to bring balance, prosperity, and harmony into your life. Explore personalized solutions tailored to your unique destiny.",
 };
 
 export default function RootLayout({ children }) {
