@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import Head from "next/head";
 
 import Navbar from "./components/navbar";
 import About from "./components/about";
@@ -15,6 +16,9 @@ import Switcher from "./components/switcher";
 export default function Home() {
   return (
   <>
+  <Head>
+    <link rel="icon" href="/favicon.ico" />
+  </Head>
   <Navbar/>
   <section className="relative overflow-hidden md:py-48 py-40 bg-red-500/5 dark:bg-red-500/20" id="home">
     <div className="container relative mt-8">
