@@ -1,11 +1,11 @@
 {
-  "name": "upcover",
+  "name": "Zi Wei Feng Shui",
   "version": "1.0.0",
-  "description": "Next js Business Landing Page Template",
+  "description": "School that teaches Chinese Astrology",
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build && next export",
     "start": "next start",
     "lint": "next lint"
   },
